@@ -88,12 +88,12 @@ export default function AuthPage() {
                     value={formData.password}
                     onChange={handleChange}
                     required
-                  />
+                  />        
                 </div>
                 <Button
                   type="submit"
                   className="w-full"
-                  onClick={() => handleAuth("https://send-mail-backend-95ts.onrender.com/api/auth/signin")}
+                  onClick={() => handleAuth("https://send-mail-backend-95ts.onrender.com/api/auth/signin  ")}
                   disabled={loading}
                 >
                   {loading ? "Logging in..." : "Login"}
