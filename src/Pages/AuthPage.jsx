@@ -93,7 +93,7 @@ export default function AuthPage() {
                 <Button
                   type="submit"
                   className="w-full"
-                  onClick={() => handleAuth("http://localhost:5000/api/auth/signin")}
+                  onClick={() => handleAuth("https://send-mail-backend-95ts.onrender.com/api/auth/signin")}
                   disabled={loading}
                 >
                   {loading ? "Logging in..." : "Login"}
@@ -151,7 +151,7 @@ export default function AuthPage() {
                 <Button
                   type="submit"
                   className="w-full"
-                  onClick={() => handleAuth("http://localhost:5000/api/auth/signup")}
+                  onClick={() => handleAuth("https://send-mail-backend-95ts.onrender.com/api/auth/signup")}
                   disabled={loading}
                 >
                   {loading ? "Signing up..." : "Sign Up"}

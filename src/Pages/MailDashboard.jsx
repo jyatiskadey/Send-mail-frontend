@@ -9,7 +9,8 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 
 // ✅ API Base URL
-const API_BASE_URL = "http://localhost:5000/api";
+// const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://send-mail-backend-95ts.onrender.com";
 
 function MailDashboard() {
   const [selectedMail, setSelectedMail] = useState(null);
